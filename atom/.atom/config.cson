@@ -1,0 +1,247 @@
+"*":
+  editor:
+    invisibles: {}
+    softWrap: true
+    showIndentGuide: true
+    showInvisibles: true
+    fontFamily: "Ricty Diminished Discord"
+    scrollPastEnd: true
+    nonWordCharacters: "\"'<>{}:;,()[]"
+    backUpBeforeSaving: true
+    fontSize: 13
+  core:
+    followSymlinks: true
+    disabledPackages: [
+      "autoclose-html"
+      "Sublime-Style-Column-Selection"
+      "atom-ternjs"
+      "build"
+      "auto-update-packages"
+      "jshint"
+    ]
+    ignoredNames: [
+      "._*"
+      ".git"
+      ".svn"
+      ".DS_Store"
+      ".idea"
+      ".sass-cache"
+      ".vagrant"
+      "delivery"
+      "node_modules"
+    ]
+    themes: [
+      "isotope-ui"
+      "one-dark-syntax"
+    ]
+    packagesWithKeymapsDisabled: [
+      "highlight-line"
+    ]
+    destroyEmptyPanes: false
+    audioBeep: false
+  localization:
+    CurrentLanguage: "default"
+  "exception-reporting":
+    userId: "c050b5ac-4cd0-135b-483c-771ba37974c2"
+  welcome:
+    showOnStartup: false
+  "linter-htmlhint":
+    htmlhintExecutablePath: "/Users/sota/.nodebrew/current/bin/htmlhint"
+  tabs:
+    showIcons: true
+    enableVcsColoring: true
+    tabScrolling: true
+  "autocomplete-plus":
+    navigateCompletions: "ctrl-p,ctrl-n"
+    backspaceTriggersAutocomplete: false
+    confirmCompletion: "enter"
+    strictMatching: false
+    defaultProvider: "Fuzzy"
+  "local-history": {}
+  "atom-beautify":
+    _analyticsUserId: "3352bfa0-b090-4e60-8e86-3d7ddc61c698"
+    analytics: false
+    css_force_indentation: true
+    css_convert_quotes: "double"
+    css_align_assignments: true
+    css_selector_separator_newline: true
+    css_preserve_newlines: true
+    css_indent_comments: false
+    html_preserve_newlines: false
+    html_indent_inner_html: true
+  emmet:
+    useEmmetComments: false
+  "sublime-tabs": {}
+  "bracket-matcher":
+    autocompleteSmartQuotes: true
+  "atom-alignment": {}
+  tag: {}
+  minimap:
+    plugins:
+      "git-diff": true
+      "find-and-replace": true
+  "atom-terminal": {}
+  "tree-view":
+    hideIgnoredNames: true
+  "linter-csslint":
+    csslintExecutablePath: "/Users/sota/.nodebrew/current/bin/csslint"
+  "linter-scss-lint":
+    scssLintExecutablePath: "/usr/bin/scss-lint"
+  linter:
+    showErrorTabLine: true
+    statusIconPosition: "Right"
+    showErrorPanel: false
+  "linter-jshint":
+    jshintExecutablePath: "/Users/sota/.nodebrew/current/bin/jshint"
+  "linter-phplint":
+    phpExecutablePath: "/Users/sota/.nodebrew/current/bin/phplint"
+  "autoclose-html":
+    makeNeverCloseElementsSelfClosing: true
+    closeOnEndOfOpeningTag: true
+  "isotope-ui":
+    customBackgroundColorPicker:
+      red: 2
+      green: 113
+      blue: 55
+      alpha: 1
+    backgroundColor: "false"
+    lowContrastTooltip: true
+    minimalMode: true
+  "auto-update-packages": {}
+  "sync-settings":
+    gistId: "SotaSuzuki"
+  docblockr:
+    auto_add_method_tag: true
+    extra_tags_go_after: true
+  "open-recent":
+    listDirectoriesAddedToProject: true
+  "web-browser":
+    useRightPane: true
+  "highlight-line":
+    hideHighlightOnSelect: true
+    enableUnderline: true
+    enableBackgroundColor: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  term2:
+    colors:
+      brightBlue:
+        red: 48
+        green: 46
+        blue: 68
+        alpha: 1
+      foreground:
+        red: 233
+        green: 234
+        blue: 234
+        alpha: 1
+      brightWhite:
+        red: 220
+        green: 219
+        blue: 217
+        alpha: 1
+      background:
+        red: 98
+        green: 100
+        blue: 97
+        alpha: 1
+      normalWhite:
+        red: 246
+        green: 251
+        blue: 241
+        alpha: 1
+  "one-dark-ui":
+    fontSize: 10
+    layoutMode: "Compact"
+  "color-picker":
+    automaticReplace: true
+  "trailing-spaces": {}
+  "git-plus": {}
+  "japanese-wrap":
+    characterWidth: {}
+    lineBreakingRule:
+      japanese: false
+      halfwidthKatakana: false
+  "atom-css-comb": {}
+  "atom-material-ui":
+    compactTreeView: true
+    depth: true
+    tabSize: "Small"
+    showTabIcons: "Show on all tabs"
+    accentColor: "Cyan"
+  "unity-ui":
+    colorStatusIndicatorsInTreeView: true
+    showIcons: true
+  "one-light-ui": {}
+  pigments:
+    sortPaletteColors: "by name"
+  "isotope-light-ui":
+    spaciousMode: true
+  "markdown-preview":
+    useGitHubStyle: true
+  "git-blame": {}
+  "Remote-FTP":
+    autoUploadOnSave: "never"
+  "symbols-tree-view": {}
+  "git-history": {}
+  "atom-autocomplete-php": {}
+  "linter-php": {}
+  "find-and-replace": {}
+  "autocomplete-php": {}
+  "merge-conflicts":
+    gitPath: "/usr/local/bin/git"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "one-o-eight-syntax":
+    backgroundVariant: "Dark"
+    foregroundVariant: "D3"
+  "go-plus":
+    goPath: "/Users/sota/dev/go/myproject"
+    goInstallation: "/usr/local/bin/go"
+    formatTool: "gofmt"
+  "ruby-test": {}
+  "highlight-selected":
+    hideHighlightOnSelectedWord: true
+    lightTheme: true
+  "linter-eslint": {}
+  "language-babel": {}
+  "linter-jscs": {}
+  "linter-js-standard":
+    style: "happiness"
+".js.regexp.replacement.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".js.regexp.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".babel.regexp.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".js.jsx.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".gohtml.html.text":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".js.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".gotemplate.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".go.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".scss.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+".diff.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;"
+".sass.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
+    autoIndentOnPaste: true
+".css.source":
+  editor:
+    nonWordCharacters: "\"'<>{}:;,()[]"
