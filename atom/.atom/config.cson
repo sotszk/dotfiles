@@ -72,7 +72,7 @@
     extra_tags_go_after: true
   editor:
     backUpBeforeSaving: true
-    fontFamily: "Ricty Diminished Discord"
+    fontFamily: "Ricty Discord"
     invisibles: {}
     nonWordCharacters: "()\"',<>[]{}`:;"
     scrollPastEnd: true
