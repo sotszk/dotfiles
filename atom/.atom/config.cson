@@ -67,10 +67,6 @@
     packagesWithKeymapsDisabled: [
       "highlight-line"
     ]
-    themes: [
-      "one-dark-ui"
-      "behave-theme"
-    ]
   docblockr:
     auto_add_method_tag: true
     extra_tags_go_after: true
@@ -110,10 +106,10 @@
   "isotope-ui":
     backgroundColor: "false"
     customBackgroundColorPicker:
-      alpha: 1
-      blue: 55
-      green: 113
       red: 2
+      green: 113
+      blue: 55
+      alpha: 1
     lowContrastTooltip: true
     minimalMode: true
   "japanese-wrap":
