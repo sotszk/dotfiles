@@ -49,7 +49,8 @@
       "local-history"
       "term"
       "language-babel"
-      "linter-eslint"
+      "linter-tidy"
+      "linter-jshint"
     ]
     followSymlinks: true
     ignoredNames: [
@@ -76,7 +77,6 @@
   editor:
     backUpBeforeSaving: true
     fontFamily: "Ricty Diminished Discord"
-    fontSize: 13
     invisibles: {}
     nonWordCharacters: "()\"',<>[]{}`:;"
     scrollPastEnd: true
@@ -123,14 +123,15 @@
       japanese: false
   "language-babel": {}
   linter:
-    showErrorPanel: false
-    showErrorTabLine: true
+    showErrorPanel: true
+    showErrorTabLine: false
     statusIconPosition: "Right"
   "linter-csslint":
     csslintExecutablePath: "/Users/sota/.nodebrew/current/bin/csslint"
   "linter-eslint":
     eslintrcPath: "/Users/sota/.eslintrc"
     globalNodePath: "/Users/sota/.nodebrew/node/v5.2.0"
+    lintHtmlFiles: true
     useGlobalEslint: true
   "linter-htmlhint":
     htmlhintExecutablePath: "/Users/sota/.nodebrew/current/bin/htmlhint"
@@ -145,6 +146,7 @@
     phpExecutablePath: "/Users/sota/.nodebrew/current/bin/phplint"
   "linter-scss-lint":
     scssLintExecutablePath: "/usr/bin/scss-lint"
+  "linter-tidy": {}
   "local-history": {}
   localization:
     CurrentLanguage: "default"
@@ -178,6 +180,8 @@
     showIcons: true
     tabScrolling: true
   tag: {}
+  "tidy-markdown":
+    runOnSave: false
   "trailing-spaces": {}
   "tree-view":
     hideIgnoredNames: true
@@ -190,6 +194,9 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
+".html.php.text":
+  editor:
+    nonWordCharacters: "()\"',<>[]{}`:;"
 ".js.regexp.replacement.source":
   editor:
     nonWordCharacters: "()\"',<>[]{}`:;"
