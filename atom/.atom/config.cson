@@ -66,10 +66,6 @@
     packagesWithKeymapsDisabled: [
       "highlight-line"
     ]
-    themes: [
-      "one-dark-ui"
-      "behave-theme"
-    ]
   docblockr:
     auto_add_method_tag: true
     extra_tags_go_after: true
