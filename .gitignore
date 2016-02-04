@@ -9,3 +9,4 @@ atom/.atom/.apm
 atom/.atom/.git-history
 atom/.atom/projects.cson
 atom/.atom/blob-store
+.atom/.atom/config.cson
