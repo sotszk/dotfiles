@@ -31,7 +31,6 @@
   'ctrl-h': 'core:backspace'
   'ctrl-cmd-h': 'dash:shortcut'
 
-
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-alt-left': 'emmet:prev-edit-point'
   'ctrl-alt-right': 'emmet:next-edit-point'
@@ -39,6 +38,8 @@
   'ctrl-right': 'editor:move-to-end-of-word'
   'shift-cmd-M': 'markdown-preview:toggle'
 
+'.platform-darwin atom-pane atom-text-editor:not([mini])':
+  'cmd-/': 'editor:toggle-line-comments'
 
 'atom-pane atom-text-editor:not([mini])':
   'enter': 'emmet:insert-formatted-line-break-only'

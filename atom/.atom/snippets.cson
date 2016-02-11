@@ -19,6 +19,11 @@
     'prefix': 'comment'
     'body': '<!--▼$1========================================-->'
 
+'.source.html':
+  'start section':
+    'prefix': 'section'
+    'body': 'section.dbk-container>.header.dbk-section-header$1'
+
 #
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
