@@ -18,5 +18,8 @@ trim_trailing_whitespace = true
 [_*.ejs]
 insert_final_newline = false
 
+[*.{js,ts,coffee,php}]
+indent_size = 2
+
 [*.md]
 trim_trailing_whitespace = false
