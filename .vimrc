@@ -1,8 +1,5 @@
 set clipboard+=unnamed
 
-set backspace=indent,eol,start
-
-
 " 挙動をvimのデフォルト設定にする
 " set nocompatible
 
@@ -24,20 +21,48 @@ set title
 " コマンドラインモードで<Tab>キーによるファイル名補完を有効にする
 set wildmenu
 
-
+" 検索語句のハイライト
 set hlsearch
+
 set background=dark
 set hidden
+
+" tabをspaceに変換する
 set expandtab
+
+" 行番号を表示する
 set number
+
 set autoindent
-set smartindent
+" set smartindent
 set tabstop=2
 set shiftwidth=2
 set smarttab
 
+" 括弧の対応関係を一瞬表示する
+set showmatch
+
+" 入力中のコマンドを表示する
+set showcmd
+
 " カーソルを行頭、行末で止まらないようにする
 set whichwrap=b,s,h,l,<,>,[,]
+
+" バックスペース押下時の挙動を変更する
+set backspace=indent,eol,start
+
+" 不可視文字を表示する
+set list
+set listchars=tab:>-,trail:.
+
+" 全角スペースのハイライト
+"augroup highlightIdeographicSpace
+"  autocmd!
+"  autocmd Colorscheme * highlight IdeographicSpace term=underline ctermbg=DarkGreen guibg=DarkGreen
+"  autocmd VimEnter,WinEnter * match IdeographicSpace / /
+" augroup END
+
+
 
 syntax on
 
@@ -61,6 +86,9 @@ imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
 """"""""""""""""""""""""""""""
+
+" 括弧のハイライトがうざったいので非表示にする
+let loaded_matchparen = 1
 
 " filetypeの自動検出(最後の方に書いた方がいいらしい)
 filetype on
