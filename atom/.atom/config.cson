@@ -41,7 +41,6 @@
   editor:
     backUpBeforeSaving: true
     fontFamily: "Ricty Discord"
-    fontSize: 13
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
