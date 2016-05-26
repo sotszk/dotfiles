@@ -6,11 +6,16 @@
     "no-nested-ternary": 2,
     "quotes": [2, "single"],
     "semi": [2, "always"],
+    "no-multi-spaces": 1,
+    "curly": 1,
+    "brace-style": 1,
     "no-console": 0,
+    "no-undefined": 1,
     "no-unused-vars": [1, {
       "vars": "all",
       "args": "after-used"
-    }]
+    }],
+    "no-undef-init": 1
   },
   "env": {
     "es6": true,
