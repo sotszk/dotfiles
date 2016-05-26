@@ -33,8 +33,5 @@
     "binaryLiterals": true,
     "blockBindings": true,
     "classes": true
-  },
-  "plugins": [
-    "react"
-  ]
+  }
 }
