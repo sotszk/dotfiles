@@ -8,9 +8,6 @@
   "atom-terminal":
     app: "/Applications/iTerm.app"
     args: "$PWD"
-  "autoclose-html":
-    closeOnEndOfOpeningTag: true
-    makeNeverCloseElementsSelfClosing: true
   "autocomplete-plus":
     confirmCompletion: "enter"
     includeCompletionsFromAllBuffers: false
@@ -63,6 +60,9 @@
     ]
   "git-diff":
     showIconsInEditorGutter: true
+  "git-plus":
+    amountOfCommitsToShow: 50
+    splitPane: "Right"
   "highlight-column":
     lineMode: true
   "highlight-line":
