@@ -8,6 +8,9 @@
   "atom-terminal":
     app: "/Applications/iTerm.app"
     args: "$PWD"
+  "autoclose-html":
+    closeOnEndOfOpeningTag: false
+    makeNeverCloseElementsSelfClosing: true
   "autocomplete-plus":
     confirmCompletion: "enter"
     includeCompletionsFromAllBuffers: false
@@ -19,6 +22,9 @@
     audioBeep: false
     destroyEmptyPanes: false
     disabledPackages: []
+    disabledPackages: [
+      "autoclose-html"
+    ]
     ignoredNames: [
       "._*"
       ".git"
@@ -38,6 +44,7 @@
   editor:
     backUpBeforeSaving: true
     fontFamily: "Ricty Discord"
+    fontSize: 13
     scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
