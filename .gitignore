@@ -8,4 +8,5 @@ atom/.atom/packages
 atom/.atom/.apm
 atom/.atom/.git-history
 atom/.atom/projects.cson
+atom/.atom/config.cson
 atom/.atom/blob-store

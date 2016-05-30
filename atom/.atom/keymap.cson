@@ -41,9 +41,6 @@
 '.platform-darwin atom-pane atom-text-editor:not([mini])':
   'cmd-/': 'editor:toggle-line-comments'
 
-'atom-pane atom-text-editor:not([mini])':
-  'enter': 'emmet:insert-formatted-line-break-only'
-
 'body':
   'ctrl-tab': 'pane:show-next-item'
 
