@@ -42,7 +42,10 @@
   'cmd-/': 'editor:toggle-line-comments'
 
 'body':
+  'ctrl-tab ^ctrl': 'unset!'
   'ctrl-tab': 'pane:show-next-item'
+  'ctrl-shift-tab ^ctrl': 'unset!'
+  'ctrl-shift-tab': 'pane:show-previous-item'
 
 'atom-workspace':
   'ctrl-p': 'unset!'
