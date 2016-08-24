@@ -156,6 +156,9 @@ alias mkdir='mkdir -p'
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
 
+# ocaml 用のエイリアスを作成
+alias ocaml='rlwrap ocaml'
+
 # グローバルエイリアス
 alias -g L='| less'
 alias -g G='| grep'
