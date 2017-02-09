@@ -8,9 +8,9 @@ export PATH=/usr/local/git/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-# export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
-
+export PATH="$PATH:`yarn global bin`"
 export PATH="$HOME/.rbenv/bin:$PATH"
+
 eval "$(rbenv init -)"
 
 
@@ -136,9 +136,6 @@ setopt extended_glob
 
 # ^R で履歴検索をするときに * でワイルドカードを使用出来るようにする
 bindkey '^R' history-incremental-pattern-search-backward
-
-# 展開または補完
-bindkey "^E" expand-or-complete
 
 
 ########################################
