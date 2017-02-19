@@ -2,7 +2,8 @@
 #
 # Atom keymaps work similarly to style sheets. Just as style sheets use
 # selectors to apply styles to elements, Atom keymaps use selectors to associate
-# keystrokes with events in specific contexts.
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
 #
 # You can create a new keybinding in this file by typing "key" and then hitting
 # tab.
@@ -17,59 +18,35 @@
 #   'ctrl-p': 'core:move-down'
 #
 # You can find more information about keymaps in these guides:
-# * https://atom.io/docs/latest/customizing-atom#customizing-key-bindings
-# * https://atom.io/docs/latest/advanced/keymaps
+# * https://atom.io/docs/latest/using-atom-basic-customization#customizing-key-bindings
+# * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on OS X and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * https://atom.io/docs/latest/hacking-atom-debugging#check-the-keybindings
 #
 # This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it here:
-# https://github.com/bevry/cson#what-is-cson
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# https://atom.io/docs/latest/using-atom-basic-customization#cson
+
 
 'atom-text-editor':
-  'cmd-shift-h': 'atom-beautify:beautify-editor'
-  'cmd-shift-a': 'atom-alignment:alignMultiple'
-  'cmd-alt-/': 'emmet:toggle-comments'
-  'ctrl-h': 'core:backspace'
-  'ctrl-cmd-h': 'dash:shortcut'
+  'ctrl-cmd-i': 'editor:auto-indent'
+  'ctrl-backspace': 'editor:delete-to-beginning-of-word'
+
+'.platform-darwin atom-text-editor':
+  'ctrl-backspace': 'editor:delete-to-beginning-of-word'
+  'cmd-@': 'emmet:remove-tag'
 
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-alt-left': 'emmet:prev-edit-point'
   'ctrl-alt-right': 'emmet:next-edit-point'
   'ctrl-left': 'editor:move-to-beginning-of-word'
   'ctrl-right': 'editor:move-to-end-of-word'
-  'shift-cmd-M': 'markdown-preview:toggle'
-
-'.platform-darwin atom-pane atom-text-editor:not([mini])':
-  'cmd-/': 'editor:toggle-line-comments'
-
-'body':
-  'ctrl-tab ^ctrl': 'unset!'
-  'ctrl-tab': 'pane:show-next-item'
-  'ctrl-shift-tab ^ctrl': 'unset!'
-  'ctrl-shift-tab': 'pane:show-previous-item'
-
-'atom-workspace':
-  'ctrl-p': 'unset!'
-  'cmd-alt-v': 'atom-html-preview:toggle'
-  'ctrl-cmd-t': 'terminal-status:toggle'
 
 'atom-text-editor:not([mini])':
   'enter': 'snippets:expand'
   'tab': 'emmet:expand-abbreviation-with-tab'
   'ctrl-e': 'editor:move-to-end-of-line'
-  'ctrl-e': 'editor:move-to-end-of-line'
-'.platform-darwin atom-text-editor':
-  'cmd-g': 'git-plus:menu'
-
-'.platform-darwin atom-text-editor':
-  'ctrl-backspace': 'editor:delete-to-beginning-of-word'
-  'ctrl-delete': 'editor:delete-to-end-of-word'
-  'cmd-@': 'emmet:remove-tag'
-
-'atom-text-editor':
-  'ctrl-b': 'core:move-left'
-  'ctrl-h': 'core:backspace'
-  'alt-cmd-/': 'block-comment:toggle'
-
-'.platform-darwin atom-workspace, .platform-darwin atom-text-editor':
-  'alt-cmd-b': 'atom-beautify:beautify-editor'
-  'ctrl-cmd-b': 'build:trigger'
