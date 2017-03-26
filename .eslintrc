@@ -1,5 +1,6 @@
 {
   "extends": "eslint:recommended",
+  "plugins": ["react"],
   "rules": {
     "comma-style": [2, "last"],
     "consistent-this": [2, "_this"],
@@ -27,9 +28,14 @@
     "jquery": true,
     "shelljs": true
   },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    }
+  },
   "ecmaFeatures": {
-    "jsx": true,
-    "modules": true,
     "experimentalObjectRestSpread": true,
     "arrowFunctions": true,
     "binaryLiterals": true,
