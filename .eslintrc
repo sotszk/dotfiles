@@ -2,21 +2,27 @@
   "extends": "eslint:recommended",
   "plugins": ["react"],
   "rules": {
-    "comma-style": [2, "last"],
-    "consistent-this": [2, "_this"],
-    "no-nested-ternary": 2,
-    "semi": [2, "always"],
-    "no-multi-spaces": 1,
+    "arrow-parens": ["error", "always"],
     "brace-style": 1,
+    "comma-dangle": ["error", "never"],
+    "comma-style": [2, "last"],
     "keyword-spacing": 1,
-    "space-before-blocks": 1,
     "no-console": 0,
+    "no-multi-spaces": 1,
+    "no-nested-ternary": 2,
     "no-undefined": 1,
+    "no-undef-init": 1,
     "no-unused-vars": [1, {
       "vars": "all",
       "args": "after-used"
     }],
-    "no-undef-init": 1
+    "no-use-before-define": 1,
+    "quote-props": ["error", "as-needed"],
+    "semi": [2, "always"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": 1,
+
+    "react/react/prop-types": 0
   },
   "env": {
     "es6": true,
