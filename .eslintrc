@@ -74,7 +74,7 @@
     "no-useless-escape": "warn",
     "no-whitespace-before-property": "error",
     "no-with": "warn",
-    "object-property-newline": "warn",
+    "object-property-newline": "off",
     "operator-linebreak": ["warn", "after"],
     "padded-blocks": "off",
     "quote-props": ["warn", "as-needed"],
