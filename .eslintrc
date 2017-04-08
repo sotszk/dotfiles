@@ -1,6 +1,5 @@
 {
   "extends": "eslint:recommended",
-  "plugins": ["react"],
   "rules": {
     "accessor-pairs": "error",
     "arrow-parens": ["warn", "always"],
