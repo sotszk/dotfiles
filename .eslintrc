@@ -78,7 +78,7 @@
     "padded-blocks": "off",
     "quote-props": ["warn", "as-needed"],
     "rest-spread-spacing": "warn",
-    "semi": ["warn", "always"],
+    "semi": ["off", "always"],
     "semi-spacing": ["warn", {
       "before": false,
       "after": true
