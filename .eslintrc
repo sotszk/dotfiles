@@ -57,7 +57,7 @@
     "no-template-curly-in-string": "warn",
     "no-this-before-super": "warn",
     "no-throw-literal": "warn",
-    "no-undefined": "warn",
+    "no-undefined": "off",
     "no-undef-init": "warn",
     "no-unmodified-loop-condition": "warn",
     "no-unneeded-ternary": "warn",
