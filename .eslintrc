@@ -92,6 +92,7 @@
     "spaced-comment": "off",
     "use-isnan": "warn",
     "valid-typeof": "error",
+    "wrap-iife": "warn",
     "yield-star-spacing": "warn",
     "yoda": "warn"
   },
