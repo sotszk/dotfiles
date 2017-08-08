@@ -150,6 +150,11 @@ alias mv='mv -i'
 
 alias mkdir='mkdir -p'
 
+# Make directory and jump inside
+md () {
+  mkdir -p $1 && cd $1
+}
+
 # sudo の後のコマンドでエイリアスを有効にする
 alias sudo='sudo '
 
@@ -173,7 +178,9 @@ elif which putclip >/dev/null 2>&1 ; then
     alias -g C='| putclip'
 fi
 
-
+function title {
+    echo -ne "\033]0;"$*"\007"
+}
 
 ########################################
 # OS 別の設定
