@@ -104,17 +104,15 @@
     "shelljs": true
   },
   "parserOptions": {
-    "sourceType": "module",
-    "ecmaFeatures": {
-        "jsx": true,
-        "modules": true
-    }
+    "sourceType": "module"
   },
   "ecmaFeatures": {
     "experimentalObjectRestSpread": true,
     "arrowFunctions": true,
     "binaryLiterals": true,
     "blockBindings": true,
-    "classes": true
+    "classes": true,
+    "jsx": true,
+    "modules": true
   }
 }
