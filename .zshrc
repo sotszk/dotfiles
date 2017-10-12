@@ -3,14 +3,16 @@
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/git/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PATH="$PATH:`yarn global bin`"
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.ndenv/bin:$PATH"
 
+eval "$(ndenv init -)"
 eval "$(rbenv init -)"
 
 
