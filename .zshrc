@@ -3,18 +3,14 @@
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
-# export PATH=$HOME/.nodebrew/current/bin:$PATH
 export PATH=/usr/local/git/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-export PATH="$PATH:`yarn global bin`"
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.ndenv/bin:$PATH"
+# export PATH="$PATH:`yarn global bin`"
+export PATH="$HOME/.anyenv/bin:$PATH"
 
-eval "$(ndenv init -)"
-eval "$(rbenv init -)"
-
+eval "$(anyenv init -)"
 
 ### リンゴマーク出すための関数
 function toon {
