@@ -57,7 +57,9 @@ remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 remapKey({'ctrl'}, 'h', keyCode('delete'))
 remapKey({'ctrl'}, 'd', keyCode('forwarddelete'))
 
-remapKey({'ctrl'}, '[', keyCode('escape'))
+remapKey({'ctrl'}, ']', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
 remapKey({'alt'}, 'v', keyCode('pageup'))
+
+
