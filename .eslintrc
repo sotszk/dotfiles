@@ -2,7 +2,6 @@
   "extends": "eslint:recommended",
   "rules": {
     "accessor-pairs": "error",
-    "arrow-parens": ["warn", "always"],
     "brace-style": "off",
     "block-spacing": "warn",
     "camelcase": "off",
