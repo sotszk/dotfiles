@@ -5,7 +5,7 @@
     "brace-style": "off",
     "block-spacing": "warn",
     "camelcase": "off",
-    "comma-dangle": ["warn", "never"],
+    "comma-dangle": ["warn", "always-multiline"],
     "comma-spacing": ["warn", {
       "before": false,
       "after": true
@@ -82,9 +82,8 @@
       "after": true
     }],
     "space-before-blocks": "warn",
-    "space-before-function-paren": ["off", {
-      "anonymous": "always",
-      "named": "never"
+    "space-before-function-paren": ["warn", {
+      "anonymous": "always"
     }],
     "space-infix-ops": "warn",
     "spaced-comment": "off",
@@ -105,13 +104,4 @@
   "parserOptions": {
     "sourceType": "module"
   },
-  "ecmaFeatures": {
-    "experimentalObjectRestSpread": true,
-    "arrowFunctions": true,
-    "binaryLiterals": true,
-    "blockBindings": true,
-    "classes": true,
-    "jsx": true,
-    "modules": true
-  }
 }
