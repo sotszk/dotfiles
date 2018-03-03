@@ -193,5 +193,3 @@ case ${OSTYPE} in
         alias ls='ls -F --color=auto'
         ;;
 esac
-
-# vim:set ft=zsh:
