@@ -18,7 +18,7 @@ function fish_prompt
   set_color red
   printf '[%s@%s]' (whoami) (prompt_hostname)
   set_color green
-  printf '%s' (__fish_git_prompt)
+  printf ' [git]%s' (__fish_git_prompt)
   set_color normal
   printf ' %s\n' (prompt_pwd)
   echo '% '
