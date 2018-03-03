@@ -10,7 +10,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # export PATH=$(yarn global bin):$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
 
-eval "$(anyenv init -)"
+eval "$(anyenv init - zsh)"
 
 ### リンゴマーク出すための関数
 function toon {
