@@ -1,6 +1,6 @@
 function fish_user_key_bindings
   # peco
-  bind \cr 'peco_select_history (commandline -b)'
+  # bind \cr 'peco_select_history (commandline -b)'
 
   # fzf
   bind \ctf '__fzf_find_file'
@@ -18,7 +18,7 @@ function fish_prompt
   set_color red
   printf '[%s@%s]' (whoami) (prompt_hostname)
   set_color green
-  printf ' [git]%s' (__fish_git_prompt)
+  printf ' %s' (__fish_git_prompt)
   set_color normal
   printf ' %s\n' (prompt_pwd)
   echo '% '
