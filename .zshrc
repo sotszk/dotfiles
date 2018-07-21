@@ -9,6 +9,7 @@ export PATH=/usr/local/sbin:$PATH
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 # export PATH=$(yarn global bin):$PATH
 export PATH="$HOME/.anyenv/bin:$PATH"
+export PATH="$HOME/.gcloud/google-cloud-sdk/bin:$PATH"
 
 eval "$(anyenv init - zsh)"
 
