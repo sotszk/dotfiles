@@ -1,4 +1,5 @@
 require('watcher')
+-- require('command-kana') 
 
 local function keyCode(key, modifiers)
    modifiers = modifiers or {}
