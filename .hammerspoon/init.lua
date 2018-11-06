@@ -1,5 +1,4 @@
 require('watcher')
--- require('command-kana')
 
 local function keyCode(key, modifiers)
   modifiers = modifiers or {}
@@ -56,7 +55,6 @@ remapKey({'ctrl'}, 'e', keyCode('right', {'cmd'}))
 remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 
 remapKey({'ctrl'}, 'h', keyCode('delete'))
-remapKey({'ctrl'}, 'd', keyCode('forwarddelete'))
 remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
 
 -- Karabiner で設定
