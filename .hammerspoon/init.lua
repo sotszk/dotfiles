@@ -45,8 +45,8 @@ local function handleGlobalAppEvent(name, event, app)
   end
 end
 
--- appsWatcher = hs.application.watcher.new(handleGlobalAppEvent)
--- appsWatcher:start()
+appsWatcher = hs.application.watcher.new(handleGlobalAppEvent)
+appsWatcher:start()
 
 remapKey({'ctrl'}, 'f', keyCode('right'))
 remapKey({'ctrl'}, 'b', keyCode('left'))

@@ -36,3 +36,20 @@ end
 exampleKeybind("o", function() 
   hs.spotify.pause()
 end)
+
+exampleKeybind("right", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+
+  f.x = f.x + 10
+  win:setFrame(f)
+end)
+
+
+exampleKeybind("left", function()
+  local win = hs.window.focusedWindow()
+  local f = win:frame()
+
+  f.x = f.x - 10
+  win:setFrame(f)
+end)
