@@ -15,15 +15,6 @@ function setCaffeineDisplay(state)
   end
 end
 
-function caffeineClicked()
-  setCaffeineDisplay(hs.caffeinate.toggle("displayIdle"))
-end
-
-if caffeine then
-  caffeine:setClickCallback(caffeineClicked)
-  setCaffeineDisplay(hs.caffeinate.get("displayIdle"))
-end
-
 hs.hotkey.bind({"cmd", "ctrl", "shift"}, "p", function()
   hs.spotify.play()
   hs.spotify.displayCurrentTrack()
