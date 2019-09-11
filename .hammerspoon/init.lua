@@ -57,12 +57,10 @@ remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 
 remapKey({'ctrl'}, 'h', keyCode('delete'))
 remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
-
--- Karabiner で設定
--- remapKey({'ctrl'}, '[', keyCode('escape'))
+   
+remapKey({'ctrl'}, '[', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
 remapKey({'alt'}, 'v', keyCode('pageup'))
 remapKey({'alt'}, 'b', keyCode('left', {'alt'}))
 remapKey({'alt'}, 'f', keyCode('right', {'alt'}))
-
