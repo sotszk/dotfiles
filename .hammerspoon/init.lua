@@ -64,7 +64,12 @@ remapKey({'ctrl'}, 'd', keyCode('forwarddelete'))
 
 remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
 
-remapKey({'ctrl'}, 'c', keyCode('forwarddelete', {'cmd'}))
+-- kill line (default: ctrl + k)
+local function keyCodeKillLine()
+  keyCode('e', {'shift', 'ctrl'})()
+  keyCode('x', {'cmd'})()
+end
+remapKey({'ctrl'}, 'u', keyCodeKillLine)
 
 remapKey({'ctrl'}, '[', keyCode('escape'))
 
