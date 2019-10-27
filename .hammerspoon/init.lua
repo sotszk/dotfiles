@@ -48,19 +48,25 @@ end
 appsWatcher = hs.application.watcher.new(handleGlobalAppEvent)
 appsWatcher:start()
 
-remapKey({'ctrl'}, 'f', keyCode('right'))
-remapKey({'ctrl'}, 'b', keyCode('left'))
-remapKey({'ctrl'}, 'n', keyCode('down'))
-remapKey({'ctrl'}, 'p', keyCode('up'))
-remapKey({'ctrl'}, 'e', keyCode('right', {'cmd'}))
+remapKey({'ctrl'}, 'h', keyCode('left'))
+remapKey({'ctrl'}, 'l', keyCode('right'))
+remapKey({'ctrl'}, 'k', keyCode('up'))
+remapKey({'ctrl'}, 'j', keyCode('down'))
+
+remapKey({'ctrl'}, 'b', keyCode('left', {'alt'}))
+remapKey({'ctrl'}, 'e', keyCode('right', {'alt'}))
+
+remapKey({'ctrl'}, 'f', keyCode('right', {'cmd'}))
 remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 
-remapKey({'ctrl'}, 'h', keyCode('delete'))
+remapKey({'ctrl'}, 'n', keyCode('delete'))
+remapKey({'ctrl'}, 'd', keyCode('forwarddelete'))
+
 remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
+
+remapKey({'ctrl'}, 'c', keyCode('forwarddelete', {'cmd'}))
 
 remapKey({'ctrl'}, '[', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
 remapKey({'alt'}, 'v', keyCode('pageup'))
-remapKey({'alt'}, 'b', keyCode('left', {'alt'}))
-remapKey({'alt'}, 'f', keyCode('right', {'alt'}))
