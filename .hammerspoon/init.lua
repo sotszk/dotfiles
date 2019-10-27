@@ -48,28 +48,15 @@ end
 appsWatcher = hs.application.watcher.new(handleGlobalAppEvent)
 appsWatcher:start()
 
-remapKey({'ctrl'}, 'h', keyCode('left'))
-remapKey({'ctrl'}, 'l', keyCode('right'))
-remapKey({'ctrl'}, 'k', keyCode('up'))
-remapKey({'ctrl'}, 'j', keyCode('down'))
+remapKey({'ctrl'}, 'j', keyCode('left', {'alt'}))
+remapKey({'ctrl'}, 'l', keyCode('right', {'alt'}))
 
-remapKey({'ctrl'}, 'b', keyCode('left', {'alt'}))
-remapKey({'ctrl'}, 'e', keyCode('right', {'alt'}))
-
-remapKey({'ctrl'}, 'f', keyCode('right', {'cmd'}))
+remapKey({'ctrl'}, 'e', keyCode('right', {'cmd'}))
 remapKey({'ctrl'}, 'a', keyCode('left', {'cmd'}))
 
-remapKey({'ctrl'}, 'n', keyCode('delete'))
 remapKey({'ctrl'}, 'd', keyCode('forwarddelete'))
 
 remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
-
--- kill line (default: ctrl + k)
-local function keyCodeKillLine()
-  keyCode('e', {'shift', 'ctrl'})()
-  keyCode('x', {'cmd'})()
-end
-remapKey({'ctrl'}, 'u', keyCodeKillLine)
 
 remapKey({'ctrl'}, '[', keyCode('escape'))
 
