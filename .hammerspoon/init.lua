@@ -48,6 +48,12 @@ end
 appsWatcher = hs.application.watcher.new(handleGlobalAppEvent)
 appsWatcher:start()
 
+remapKey({'ctrl'}, 'h', keyCode('delete'))
+remapKey({'ctrl'}, 'b', keyCode('left'))
+remapKey({'ctrl'}, 'f', keyCode('right'))
+remapKey({'ctrl'}, 'n', keyCode('down'))
+remapKey({'ctrl'}, 'p', keyCode('up'))
+
 remapKey({'ctrl'}, 'j', keyCode('left', {'alt'}))
 remapKey({'ctrl'}, 'l', keyCode('right', {'alt'}))
 
