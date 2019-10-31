@@ -67,4 +67,4 @@ remapKey({'ctrl'}, 'w', keyCode('delete', {'alt'}))
 remapKey({'ctrl'}, '[', keyCode('escape'))
 
 remapKey({'ctrl'}, 'v', keyCode('pagedown'))
-remapKey({'alt'}, 'v', keyCode('pageup'))
+remapKey({'ctrl'}, 'u', keyCode('pageup'))
