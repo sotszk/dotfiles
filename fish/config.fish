@@ -1,3 +1,6 @@
+set -x PATH ~/.anyenv/bin $PATH
+anyenv init - fish | source
+
 # removed welcome message
 function greeting
   echo 'Hello Fish! (git_current_branch)'
