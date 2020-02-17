@@ -22,7 +22,7 @@ alias gpush 'git push'
 alias gd 'git diff'
 alias gb 'git branch'
 alias gr 'git reset'
-alias gr 'git reset --hard'
+alias grh 'git reset --hard'
 
 # npm custom aliases
 alias ni 'npm install'
