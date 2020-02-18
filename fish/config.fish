@@ -49,6 +49,7 @@ alias yarn-update 'yarn upgrade-interactive --latest'
 alias c 'code .'
 alias ll 'ls -1a'
 alias tree 'tree -NC'
+alias fishconfig 'cat ~/.config/fish/config.fish'
 
 # company specific aliases
 alias cdweb 'ghq look yamap-web'
