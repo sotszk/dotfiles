@@ -11,7 +11,8 @@ function reload
 end
 
 # git custom aliases
-alias gc 'git commit -m'
+alias gc 'git commit'
+alias gcm 'git commit -m'
 alias gcam 'git commit --amend'
 alias gs 'git status'
 alias gp 'git pull'
@@ -23,6 +24,7 @@ alias gd 'git diff'
 alias gb 'git branch'
 alias gr 'git reset'
 alias grh 'git reset --hard'
+alias gm 'git merge'
 
 # npm custom aliases
 alias ni 'npm install'
