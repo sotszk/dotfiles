@@ -29,6 +29,7 @@ alias gm 'git merge'
 # npm custom aliases
 alias ni 'npm install'
 alias nid 'npm install -D'
+alias nr 'npm run'
 alias nrs 'npm run start'
 alias nrd 'npm run dev'
 alias nrt 'npm run test'
