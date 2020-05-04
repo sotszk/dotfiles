@@ -23,6 +23,7 @@ alias gpush 'git push'
 alias gd 'git diff'
 alias gb 'git branch'
 alias gr 'git reset'
+alias grs 'git reset --soft'
 alias grh 'git reset --hard'
 alias gm 'git merge'
 
@@ -53,7 +54,3 @@ alias c 'code .'
 alias ll 'ls -1a'
 alias tree 'tree -NC'
 alias fishconfig 'cat ~/.config/fish/config.fish'
-
-# company specific aliases
-alias cdweb 'ghq look yamap-web'
-alias cdeditor 'ghq look map-editor2'
