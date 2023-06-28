@@ -1,3 +1,5 @@
+set PATH /opt/homebrew/bin $PATH
+
 set -x PATH ~/.anyenv/bin $PATH
 anyenv init - fish | source
 
@@ -7,7 +9,7 @@ function greeting
 end
 
 function reload
-  . ~/.ghq/github.com/SotaSuzuki/dotfiles/fish/config.fish
+  . ~/ghq/github.com/sotszk/dotfiles/fish/config.fish
 end
 
 # git custom aliases
@@ -54,3 +56,4 @@ alias c 'code .'
 alias ll 'ls -1a'
 alias tree 'tree -NC'
 alias fishconfig 'cat ~/.config/fish/config.fish'
+eval "$(nodenv init -)"
