@@ -29,31 +29,19 @@ alias grs 'git reset --soft'
 alias grh 'git reset --hard'
 alias gm 'git merge'
 
-# npm custom aliases
-alias ni 'npm install'
-alias nid 'npm install -D'
-alias nr 'npm run'
-alias nrs 'npm run start'
-alias nrd 'npm run dev'
-alias nrt 'npm run test'
-alias nrl 'npm run lint'
-alias nrb 'npm run build'
-alias npm-update 'npx npm-check -u'
-
-# yarn custom aliases
-alias y 'yarn'
-alias ya 'yarn add'
-alias yad 'yarn add -D'
-alias ys 'yarn start'
-alias yd 'yarn dev'
-alias yt 'yarn test'
-alias yl 'yarn lint'
-alias yb 'yarn build'
-alias yarn-update 'yarn upgrade-interactive --latest'
-
 # other custom aliases
 alias c 'code .'
 alias ll 'ls -1a'
 alias tree 'tree -NC'
 alias fishconfig 'cat ~/.config/fish/config.fish'
-eval "$(nodenv init -)"
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
+
+# pnpm
+set -gx PNPM_HOME "/Users/sotasuzuki/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
