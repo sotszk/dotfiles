@@ -1,5 +1,5 @@
 set PATH /opt/homebrew/bin $PATH
-
+set PATH ~/.local/bin $PATH
 set -x PATH ~/.anyenv/bin $PATH
 anyenv init - fish | source
 
