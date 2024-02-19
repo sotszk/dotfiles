@@ -3,6 +3,8 @@ set PATH ~/.local/bin $PATH
 set -x PATH ~/.anyenv/bin $PATH
 anyenv init - fish | source
 
+set -g theme_nerd_fonts yes
+
 # removed welcome message
 function greeting
   echo 'Hello Fish! (git_current_branch)'

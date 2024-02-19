@@ -10,10 +10,10 @@ history = 10_000
 
 [font]
 size = 12
-normal = { family = "Monaspace Neon", style = "Regular" }
-bold = { family = "Monaspace Neon", style = "Bold" }
-italic = { family = "Monaspace Neon", style = "Italic" }
-bold_italic = { family = "Monaspace Neon", style = "Bold Italic" }
+normal = { family = "MonaspiceNe Nerd Font", style = "Regular" }
+bold = { family = "MonaspiceNe Nerd Font", style = "Bold" }
+italic = { family = "MonaspiceNe Nerd Font", style = "Italic" }
+bold_italic = { family = "MonaspiceNe Nerd Font", style = "Bold Italic" }
 
 [shell]
 program = "/opt/homebrew/bin/fish"
