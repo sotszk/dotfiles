@@ -1,6 +1,9 @@
 set PATH /opt/homebrew/bin $PATH
 set PATH ~/.local/bin $PATH
+set PATH ~/fvm/default/bin $PATH
 set -x PATH ~/.anyenv/bin $PATH
+set -Ux RBENV_ROOT ~/.anyenv/envs/.rbenv
+set -U fish_user_paths $RBENV_ROOT/bin $fish_user_paths
 anyenv init - fish | source
 
 set -g theme_nerd_fonts yes
