@@ -1,6 +1,7 @@
 set PATH /opt/homebrew/bin $PATH
 set PATH ~/.local/bin $PATH
 set PATH ~/fvm/default/bin $PATH
+set PATH ~/Library/Android/sdk/platform-tools $PATH      
 set -x PATH ~/.anyenv/bin $PATH
 set -Ux RBENV_ROOT ~/.anyenv/envs/.rbenv
 set -U fish_user_paths $RBENV_ROOT/bin $fish_user_paths
