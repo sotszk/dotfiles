@@ -76,5 +76,11 @@
     "scrollbar": {
       "show": "never"
     }
+  },
+
+  "indent_guides": {
+    /// 1. "disabled"
+    /// 2. "indent_aware"
+    "background_coloring": "indent_aware"
   }
 }
