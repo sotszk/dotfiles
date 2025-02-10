@@ -7,6 +7,7 @@ set -Ux RBENV_ROOT ~/.anyenv/envs/.rbenv
 set -U fish_user_paths $RBENV_ROOT/bin $fish_user_paths
 anyenv init - fish | source
 set PATH /usr/local/go/bin $PATH
+set PATH $(go env GOPATH)/bin $PATH
 
 set -g theme_nerd_fonts yes
 
