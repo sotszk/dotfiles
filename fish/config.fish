@@ -1,7 +1,7 @@
 set PATH /opt/homebrew/bin $PATH
 set PATH ~/.local/bin $PATH
 set PATH ~/fvm/default/bin $PATH
-set PATH ~/Library/Android/sdk/platform-tools $PATH      
+set PATH ~/Library/Android/sdk/platform-tools $PATH
 set -x PATH ~/.anyenv/bin $PATH
 set -Ux RBENV_ROOT ~/.anyenv/envs/.rbenv
 set -U fish_user_paths $RBENV_ROOT/bin $fish_user_paths
@@ -51,4 +51,6 @@ end
 # pnpm end
 
 # Added by Windsurf
-fish_add_path /Users/sotasuzuki/.codeium/windsurf/bin
+fish_add_path ~/.codeium/windsurf/bin
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
